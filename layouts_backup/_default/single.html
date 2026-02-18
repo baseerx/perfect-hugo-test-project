@@ -1,0 +1,8 @@
+{{define "main"}}
+
+<title>{{ .Title }}</title>
+{{ .Content }}
+
+{{ partial "greetings.html" (dict "name" "Baseer the Full Stack" "site" "My Hugo Site") }}
+
+{{end}}

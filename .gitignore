@@ -1,0 +1,8 @@
+/node_modules
+/public
+nodemodules
+
+node_modules/
+public/
+resources/_gen/
+.cache/

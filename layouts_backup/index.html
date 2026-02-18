@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main>
+ <h1 class="text-4xl text-blue-600 font-bold">
+  Tailwind Working 🚀
+</h1>
+
+ <button type="button" class="bg-blue-500 hover:bg-red-300 text-white font-bold py-2 px-4 rounded">Click me</button>
+
+  <p>this default landing page will load in baseof.html</p>
+  <p>{{ .Params.subtitle | default "default subtitle" }}</p>
+  {{ .Content }}
+</main>
+{{ end }}
